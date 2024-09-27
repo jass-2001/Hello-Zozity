@@ -10,7 +10,7 @@ position:fixed;
 align-items: center;
 justify-items: center;
 position: absolute;
-left: 50% ;
+margin-left: 50% ;
 }
 
 .header_text {
