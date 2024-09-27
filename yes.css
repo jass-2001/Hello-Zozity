@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #fee5df;
+}
+
+.header_text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: -150px;
+    margin-right: 100px;
+}
+
+.gif_container {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    margin-left: -100px;
+    margin-right: 0px;
+    margin-top: -80px;
+}

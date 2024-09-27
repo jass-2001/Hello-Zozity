@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome!</title>
+<link rel="stylesheet" href="test2.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header-text"> Do You Love Me ?</h1>
+    </div>
+        <div class="gif-containter">
+            <img src="cat-heart.gif" alt="cat">
+        </div>
+        <div class="buttons">
+            <button class="btn" id="yesbutton" onclick="nextPage()">Yes</button>
+            <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
+            <script>
+                function nextPage() {
+                    window.location.href = "yes.html";
+                }
+                
+                function moveButton() {
+                    var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                    var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                    document.getElementById('noButton').style.left = `${x}px`;
+                    document.getElementById('noButton').style.top = `${y}px`;
+                }
+            </script>
+        </div>
+    </div>
+</body>
+</html>
