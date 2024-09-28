@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100hv;
+    height: 100vh;
     background-color: #fee5df;
 }
 
@@ -15,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 50%;
 }
 
 /* Header Text */
